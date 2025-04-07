@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2019",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "esModuleInterop": true
+  }
+}
