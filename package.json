@@ -4,6 +4,14 @@
   "description": "A lightweight lodash-style utility library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://shivanshujags.github.io/codetrix/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivanshujags/codetrix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivanshujags/codetrix/issues"
+  },
   "keywords": [
     "lodash-alternative",
     "utility",
