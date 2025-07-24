@@ -54,3 +54,9 @@ isWeekend(new Date()); // true or false
 npm npm test
 
 ```
+
+## 💖 Sponsor This Project
+
+If you find this library helpful, please consider [![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/shivanshuJags)
+
+Your support helps me continue maintaining and improving this project.
