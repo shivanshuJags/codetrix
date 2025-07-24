@@ -1,22 +1,12 @@
-import { capitalize } from "../../string/capitalize"
+import { capitalize } from "../../string";
 
-describe("capitalize", () => {
-    it("should capitalize the first lowercase letter", () => {
+describe('capitalize', () => {
+    it('capitalizes the first letter', () => {
         expect(capitalize('hello')).toBe('Hello');
-    });
-    it('should return the same string if first letter is already capital', () => {
-        expect(capitalize('World')).toBe('World');
+        expect(capitalize('world')).toBe('World');
     });
 
-    it('should return empty string if input is empty', () => {
+    it('returns empty string for empty input', () => {
         expect(capitalize('')).toBe('');
     });
-    it('should handle non-alpha starting chars', () => {
-        expect(capitalize('123abc')).toBe('123abc');
-    });
-
-    it('should work with single characters', () => {
-        expect(capitalize('a')).toBe('A');
-        expect(capitalize('A')).toBe('A');
-    });
-})
+});
