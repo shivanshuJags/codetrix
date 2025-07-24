@@ -1,6 +1,18 @@
 # custom-utility-functions
 
-A lightweight utility library similar to Lodash with hand-crafted TypeScript functions.
+A reusable, type-safe utility library for arrays, objects, strings, dates, and more.
+
+---
+
+## ✨ Features
+
+- 🔢 Array and number utilities
+- 📅 Date helpers (`isBefore`, `getDay`, `setYear`, etc.)
+- 🔤 String utilities
+- ✅ Type-safe, modular, tree-shakable
+- 📦 Lightweight and dependency-free
+
+---
 
 ## 📦 Installation
 
@@ -12,20 +24,33 @@ npm install codetrix
 ## 🔧 Usage
 
 ```
-import { isEmpty, chunk, debounce } from 'custom-lodash';
+import { clamp } from 'codetrix/numbers';
 
-console.log(isEmpty({})); // true
-console.log(chunk([1, 2, 3, 4], 2)); // [[1, 2], [3, 4]]
+const result = clamp(5, 0, 10); // 5
+
+```
+
+```
+import { isWeekend } from 'codetrix/date/is';
+
+isWeekend(new Date()); // true or false
 
 ```
 
-## 🧩 Available Functions
+## 🧰 Available Methods
 
-```
-isEmpty(value: any): boolean
-Returns true if the value is null, undefined, empty string, empty array, or empty object.
+| Category        | Methods                                           |
+| --------------- | ------------------------------------------------- |
+| **Array**       | `chunk`, `flatten`, `shuffle`, `unique`           |
+| **Date → is/**  | `isWeekend`, `isLeapYear`, `isSameDay`, `isToday` |
+| **Date → get/** | `getDay`, `getMonth`, `getYear`, `getWeekNumber`  |
+| **Date → set/** | `setYear`, `setMonth`, `setDay`, `setTime`        |
+| **String**      | `capitalize`, `camelCase`, `kebabCase`, `trimAll` |
+| **Number**      | `clamp`, `random`, `isEven`, `isOdd`              |
 
-chunk<T>(array: T[], size: number): T[][]
-Splits the array into chunks of a specific size.
+## 🧪 Running Tests
+
+```bash
+npm npm test
 
 ```
