@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1744193190098" clover="3.2.0">
+  <project timestamp="1744193190098" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3" elements="39" coveredelements="39" complexity="0" loc="25" ncloc="25" packages="4" files="4" classes="4"/>
+    <package name="array">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="chunk.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\array\chunk.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="ascii.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\constants\ascii.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="objects">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="isEmpty.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\isEmpty.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="string">
+      <metrics statements="12" coveredstatements="12" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="capitalize.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\string\capitalize.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

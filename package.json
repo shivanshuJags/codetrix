@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
-    "lodash",
+    "lodash-alternative",
     "utility",
     "utils",
     "typescript",
@@ -21,6 +21,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
+    "docs": "typedoc",
     "test:coverage": "jest --coverage",
     "release:patch": "npm version patch && git push && git push --tags",
     "release:minor": "npm version minor && git push && git push --tags",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
-    "ts-jest": "^29.3.1"
+    "ts-jest": "^29.3.1",
+    "typedoc": "^0.28.7"
   }
 }

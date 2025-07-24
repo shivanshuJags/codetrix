@@ -1,0 +1,7 @@
+# .npmignore
+src/
+test/
+docs/
+typedoc/
+tsconfig.json
+vitest.config.ts

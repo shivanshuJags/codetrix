@@ -4,7 +4,7 @@ describe('mergeObjects', () => {
     it('should merge two objects', () => {
         const obj1 = { a: 1 };
         const obj2 = { b: 2 };
-        const merged = mergeObjects(obj1, obj2);
+        const merged = mergeObjects<Record<string, any>>(obj1, obj2);
 
         expect(merged).toEqual({ a: 1, b: 2 });
     });
