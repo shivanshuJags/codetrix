@@ -1,4 +1,4 @@
-import { isCreditCard, isEmail, isPhoneNumber, isPostalCode, isStrongPassword, isURL, isUsername } from "../../validators";
+import { isCreditCard, isEmail, isPhoneNumber, isPostalCode, isStrongPassword, isURL, isUsername } from "../../formUtils";
 
 describe('isEmail', () => {
     it('should return true for valid emails', () => {
@@ -43,8 +43,8 @@ describe('isUsername', () => {
     });
 
     it('should return false for invalid usernames', () => {
-        expect(isUsername('ab')).toBe(false); // too short
-        expect(isUsername('user@name')).toBe(false); // invalid char
+        expect(isUsername('ab')).toBe(false);
+        expect(isUsername('user@name')).toBe(false);
     });
 });
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1754580756233" clover="3.2.0">
-  <project timestamp="1754580756234" name="All files">
-    <metrics statements="240" coveredstatements="239" conditionals="69" coveredconditionals="65" methods="67" coveredmethods="67" elements="376" coveredelements="371" complexity="0" loc="240" ncloc="240" packages="6" files="39" classes="39"/>
+<coverage generated="1754654771839" clover="3.2.0">
+  <project timestamp="1754654771839" name="All files">
+    <metrics statements="387" coveredstatements="365" conditionals="136" coveredconditionals="128" methods="119" coveredmethods="111" elements="642" coveredelements="604" complexity="0" loc="387" ncloc="387" packages="7" files="48" classes="48"/>
     <package name="array">
       <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="10" coveredmethods="10"/>
       <file name="compact.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\array\compact.ts">
@@ -158,36 +158,191 @@
         <line num="72" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="number">
-      <metrics statements="34" coveredstatements="34" conditionals="7" coveredconditionals="7" methods="9" coveredmethods="9"/>
-      <file name="clamp.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\clamp.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="13" count="6" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
+    <package name="formUtils">
+      <metrics statements="108" coveredstatements="108" conditionals="57" coveredconditionals="57" methods="34" coveredmethods="34"/>
+      <file name="error-messages.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\error-messages.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="21" coveredconditionals="21" methods="4" coveredmethods="4"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="13" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="38" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="61" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="78" count="4" type="stmt"/>
+        <line num="79" count="4" type="stmt"/>
+        <line num="80" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="83" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\index.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="form-helpers.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\form-helpers.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+      </file>
+      <file name="form-parser.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\form-parser.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+      <file name="form-state.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\form-state.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="8" falsecount="0"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
+      </file>
+      <file name="utility.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\utility.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="63" count="13" type="stmt"/>
+        <line num="69" count="13" type="cond" truecount="8" falsecount="0"/>
+        <line num="79" count="6" type="stmt"/>
+        <line num="80" count="9" type="stmt"/>
+        <line num="83" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="86" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="89" count="5" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="92" count="5" type="stmt"/>
+        <line num="93" count="80" type="stmt"/>
+        <line num="94" count="80" type="cond" truecount="1" falsecount="0"/>
+        <line num="95" count="40" type="stmt"/>
+        <line num="96" count="40" type="cond" truecount="1" falsecount="0"/>
+        <line num="98" count="80" type="stmt"/>
+        <line num="99" count="80" type="stmt"/>
+        <line num="102" count="5" type="stmt"/>
+        <line num="111" count="6" type="stmt"/>
+        <line num="112" count="4" type="stmt"/>
+        <line num="113" count="4" type="stmt"/>
+      </file>
+      <file name="validators.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\formUtils\validators.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="64" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="number">
+      <metrics statements="54" coveredstatements="54" conditionals="14" coveredconditionals="14" methods="16" coveredmethods="16"/>
+      <file name="clamp.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\clamp.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+      <file name="degree.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\degree.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="50" count="54" type="stmt"/>
+        <line num="60" count="7" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="62" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="74" count="12" type="stmt"/>
+        <line num="75" count="12" type="stmt"/>
+        <line num="76" count="12" type="stmt"/>
+        <line num="78" count="12" type="cond" truecount="3" falsecount="0"/>
+        <line num="79" count="7" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
       </file>
       <file name="isEven.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\isEven.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="6" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
       </file>
       <file name="isOdd.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\isOdd.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="6" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
       </file>
       <file name="isPrime.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\isPrime.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="11" count="6" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
         <line num="12" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="5" type="stmt"/>
         <line num="14" count="5" type="cond" truecount="1" falsecount="0"/>
@@ -195,17 +350,17 @@
       </file>
       <file name="percentage.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\percentage.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="12" count="6" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
         <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="2" type="stmt"/>
       </file>
       <file name="random.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\random.ts">
         <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="3" type="stmt"/>
-        <line num="26" count="6" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
         <line num="27" count="10" type="stmt"/>
-        <line num="40" count="6" type="stmt"/>
+        <line num="40" count="7" type="stmt"/>
         <line num="41" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="42" count="2" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
@@ -214,7 +369,7 @@
       </file>
       <file name="roundTo.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\number\roundTo.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="11" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="4" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
       </file>
@@ -223,38 +378,38 @@
       <metrics statements="38" coveredstatements="37" conditionals="24" coveredconditionals="20" methods="8" coveredmethods="8"/>
       <file name="deepClone.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\deepClone.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
       <file name="getNested.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\getNested.ts">
         <metrics statements="2" coveredstatements="2" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
-        <line num="13" count="5" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
         <line num="14" count="6" type="cond" truecount="8" falsecount="0"/>
       </file>
       <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
       </file>
       <file name="isEmpty.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\isEmpty.ts">
         <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="15" count="11" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="9" type="cond" truecount="3" falsecount="0"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="21" count="7" type="cond" truecount="3" falsecount="0"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="16" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="21" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
         <line num="29" count="2" type="stmt"/>
       </file>
       <file name="mergeObjects.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\mergeObjects.ts">
         <metrics statements="8" coveredstatements="7" conditionals="7" coveredconditionals="3" methods="2" coveredmethods="2"/>
-        <line num="10" count="5" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
         <line num="13" count="4" type="cond" truecount="1" falsecount="0"/>
@@ -265,7 +420,7 @@
       </file>
       <file name="omit.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\omit.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -273,7 +428,7 @@
       </file>
       <file name="pick.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\objects\pick.ts">
         <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
@@ -339,42 +494,64 @@
         <line num="14" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="validators">
-      <metrics statements="29" coveredstatements="29" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
-      <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\validators\index.ts">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+    <package name="utility">
+      <metrics statements="48" coveredstatements="27" conditionals="16" coveredconditionals="12" methods="18" coveredmethods="10"/>
+      <file name="asyncUtils.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\utility\asyncUtils.ts">
+        <metrics statements="27" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="10" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
       </file>
-      <file name="utility.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\validators\utility.ts">
-        <metrics statements="28" coveredstatements="28" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+      <file name="index.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\utility\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="logic.ts" path="C:\Users\shiva\Documents\My Study\nodejs tutorial\codetrix\src\utility\logic.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="8"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
         <line num="45" count="4" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
-        <line num="63" count="13" type="stmt"/>
-        <line num="69" count="13" type="cond" truecount="8" falsecount="0"/>
-        <line num="79" count="1" type="stmt"/>
-        <line num="80" count="9" type="stmt"/>
-        <line num="83" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="86" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="89" count="5" type="stmt"/>
-        <line num="90" count="5" type="stmt"/>
-        <line num="92" count="5" type="stmt"/>
-        <line num="93" count="80" type="stmt"/>
-        <line num="94" count="80" type="cond" truecount="1" falsecount="0"/>
-        <line num="95" count="40" type="stmt"/>
-        <line num="96" count="40" type="cond" truecount="1" falsecount="0"/>
-        <line num="98" count="80" type="stmt"/>
-        <line num="99" count="80" type="stmt"/>
-        <line num="102" count="5" type="stmt"/>
-        <line num="111" count="1" type="stmt"/>
-        <line num="112" count="4" type="stmt"/>
-        <line num="113" count="4" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
       </file>
     </package>
   </project>

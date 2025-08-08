@@ -5,3 +5,4 @@ export * from './isPrime';
 export * from './percentage';
 export * from './random';
 export * from './roundTo';
+export * from './degree';
