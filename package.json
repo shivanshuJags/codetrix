@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --maxWorkers=50%",
     "docs": "typedoc",
     "test:coverage": "jest --coverage",
     "release:patch": "npm version patch && git push && git push --tags",

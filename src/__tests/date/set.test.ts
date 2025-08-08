@@ -24,15 +24,47 @@ describe("setDay", () => {
     });
 });
 
-describe("setTime", () => {
+describe('setTime', () => {
+    const baseDate = new Date('2023-01-01T12:34:56.789Z');
 
-    test('should set time correctly', () => {
-        const date = new Date('2025-07-23T00:00:00.000Z');
-        const result = setTime(date, 10, 30, 45, 123);
+    it('should set time to 00:00:00.000 using all defaults', () => {
+        const result = setTime(baseDate);
+        expect(result.getHours()).toBe(0);
+        expect(result.getMinutes()).toBe(0);
+        expect(result.getSeconds()).toBe(0);
+        expect(result.getMilliseconds()).toBe(0);
+    });
+
+    it('should set only hours (rest default)', () => {
+        const result = setTime(baseDate, 10);
+        expect(result.getHours()).toBe(10);
+        expect(result.getMinutes()).toBe(0);
+        expect(result.getSeconds()).toBe(0);
+        expect(result.getMilliseconds()).toBe(0);
+    });
+
+    it('should set hours and minutes (rest default)', () => {
+        const result = setTime(baseDate, 10, 30);
+        expect(result.getHours()).toBe(10);
+        expect(result.getMinutes()).toBe(30);
+        expect(result.getSeconds()).toBe(0);
+        expect(result.getMilliseconds()).toBe(0);
+    });
+
+    it('should set hours, minutes and seconds (ms default)', () => {
+        const result = setTime(baseDate, 10, 30, 45);
         expect(result.getHours()).toBe(10);
         expect(result.getMinutes()).toBe(30);
         expect(result.getSeconds()).toBe(45);
-        expect(result.getMilliseconds()).toBe(123);
+        expect(result.getMilliseconds()).toBe(0);
+    });
+
+    it('should set full time (no defaults)', () => {
+        const result = setTime(baseDate, 23, 59, 59, 999);
+        expect(result.getHours()).toBe(23);
+        expect(result.getMinutes()).toBe(59);
+        expect(result.getSeconds()).toBe(59);
+        expect(result.getMilliseconds()).toBe(999);
     });
 });
 

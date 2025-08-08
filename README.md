@@ -41,7 +41,7 @@ isWeekend(new Date()); // true or false
 
 | Category        | Methods                                           |
 | --------------- | ------------------------------------------------- |
-| **Array**       | `chunk`, `flatten`, `shuffle`, `unique`           |
+| **Array**       | `compact`, `flatten`, `shuffle`, `unique`         |
 | **Date → is/**  | `isWeekend`, `isLeapYear`, `isSameDay`, `isToday` |
 | **Date → get/** | `getDay`, `getMonth`, `getYear`, `getWeekNumber`  |
 | **Date → set/** | `setYear`, `setMonth`, `setDay`, `setTime`        |
