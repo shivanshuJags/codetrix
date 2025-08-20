@@ -25,4 +25,4 @@ export function mergeObjects<T extends object>(...objects: T[]): T {
         }
         return acc;
     }, {} as T);
-}  
+}
