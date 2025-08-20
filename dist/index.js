@@ -5,3 +5,5 @@ export * from './string';
 export * from './number';
 export * from './formUtils';
 export * from './utility';
+export * from './functions';
+export * from './ai';
